@@ -33,7 +33,6 @@
   $effect(() => {});
 </script>
 
-scope html code 
 
 <button onclick={handleCount}>
   click {count}
@@ -43,13 +42,9 @@ scope html code
   {doubled}
 </button>
 
-<p>{counti} doubled is {doubled}</p>
+<p>{counti} doubled is {doubled}</p> -->
 
-<style>
-  /* style scope */
-</style> -->
-
-<script>
+<!-- <script>
   let state = $state({ value: 0 });
   let derived = $derived({ value: state.value * 2 });
 
@@ -73,4 +68,10 @@ scope html code
   {state.value}
 </button>
 
-<p>{state.value} doubled is {derived.value}</p>
+<p>{state.value} doubled is {derived.value}</p> -->
+
+<script module>
+  import Counter from "$lib/components/Counter.svelte";
+</script>
+
+<Counter />
