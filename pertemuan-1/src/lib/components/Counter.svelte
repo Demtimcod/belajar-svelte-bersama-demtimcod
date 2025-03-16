@@ -24,9 +24,25 @@
 </script>
 
 <form onsubmit={handleForm}>
+  <label for="" class="blockt">Angka 1</label>
   <input type="number" name="a" bind:value={total.anull} />
+  <label for="" class="blockt">Angaka 2</label>
   <input type="number" name="b" bind:value={total.bnull} />
+
   <button>click</button>
 </form>
 <button onclick={handleReset}>Reset</button>
 <h1>HASIL : {total.total}</h1>
+
+<ul>
+  <li>oke</li>
+  <li>la</li>
+  <li>a</li>
+  <li>a</li>
+</ul>
+
+<style>
+  .blockt {
+    display: block;
+  }
+</style>

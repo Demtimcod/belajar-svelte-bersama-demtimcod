@@ -72,6 +72,7 @@
 
 <script module>
   import Counter from "$lib/components/Counter.svelte";
+  import TodoList from "$lib/components/TodoList.svelte";
 </script>
 
-<Counter />
+<TodoList />
