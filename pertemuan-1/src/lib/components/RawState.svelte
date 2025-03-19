@@ -17,6 +17,8 @@
   }
 </script>
 
+<h1>Contoh penggunaak state.raw</h1>
+
 <input type="text" id="name" />
 <input type="number" id="age" />
 

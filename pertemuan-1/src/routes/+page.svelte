@@ -72,6 +72,8 @@
 
 <script module>
   import Counter from "$lib/components/Counter.svelte";
+  import DerivedBy from "$lib/components/DerivedBy.svelte";
+  import DrevidedRunes from "$lib/components/DrevidedRunes.svelte";
   import RawState from "$lib/components/RawState.svelte";
   import TodoList from "$lib/components/TodoList.svelte";
 </script>
@@ -79,3 +81,7 @@
 <TodoList />
 
 <RawState />
+
+<DrevidedRunes />
+
+<DerivedBy />
