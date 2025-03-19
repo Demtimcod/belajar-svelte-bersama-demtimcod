@@ -74,9 +74,20 @@
   import Counter from "$lib/components/Counter.svelte";
   import DerivedBy from "$lib/components/DerivedBy.svelte";
   import DrevidedRunes from "$lib/components/DrevidedRunes.svelte";
+  import GlobalState from "$lib/components/GlobalState.svelte";
   import RawState from "$lib/components/RawState.svelte";
   import TodoList from "$lib/components/TodoList.svelte";
+
+  let count = $state(0);
+
+  function handleCount() {
+    count++;
+  }
+  // jika mau melihat perubahan menggunakn inspect
+  //$inspect(count).with((type, values) => console.log(type, values));
 </script>
+
+<button onclick={handleCount}>test inspect</button>
 
 <TodoList />
 
@@ -85,3 +96,7 @@
 <DrevidedRunes />
 
 <DerivedBy />
+
+<GlobalState />
+
+<a href="/effect" target="_blank">Menuju example effect</a>
