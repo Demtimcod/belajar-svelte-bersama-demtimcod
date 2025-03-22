@@ -3,6 +3,8 @@
   let check = $derived.by(() => {
     if (count == 5) {
       return "Udah nyampek lima aja";
+    } else if (count == 10) {
+      return "Horee Kamu udah nyampek 10";
     } else {
       return "LOSSSSS";
     }

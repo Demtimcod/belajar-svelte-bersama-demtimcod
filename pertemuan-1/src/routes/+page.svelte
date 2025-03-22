@@ -74,6 +74,7 @@
   import Counter from "$lib/components/Counter.svelte";
   import DerivedBy from "$lib/components/DerivedBy.svelte";
   import DrevidedRunes from "$lib/components/DrevidedRunes.svelte";
+  import EXampleGlobalState from "$lib/components/EXampleGlobalState.svelte";
   import GlobalState from "$lib/components/GlobalState.svelte";
   import RawState from "$lib/components/RawState.svelte";
   import TodoList from "$lib/components/TodoList.svelte";
@@ -98,5 +99,7 @@
 <DerivedBy />
 
 <GlobalState />
+
+<EXampleGlobalState />
 
 <a href="/effect" target="_blank">Menuju example effect</a>

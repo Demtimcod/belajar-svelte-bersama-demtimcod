@@ -1,5 +1,5 @@
 <script>
-  import { counter } from "$lib/hooks/counter.svelte";
+  import { counter } from "$lib/global-state/counter.svelte";
 
   function handeleGlobalCounter() {
     counter.count++;
